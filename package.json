@@ -28,6 +28,10 @@
             }
         ]
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CHA/cs2ts.git"
+	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
