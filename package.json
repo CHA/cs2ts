@@ -1,9 +1,9 @@
 {
 	"name": "cs2ts",
 	"displayName": "cs2ts",
-	"description": "",
-	"version": "0.0.1",
-	"publisher": "christofelh",
+	"description": "CS2TS: C# DTO class to TypeScript interface converter",
+	"version": "1.0.0",
+	"publisher": "christofelhq",
 	"engines": {
 		"vscode": "^1.52.0"
 	},

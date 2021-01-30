@@ -1,16 +1,16 @@
 # cs2ts README
 
-CS2TS: A simple CSharp DTO class converter to TypeScript.
+CS2TS: C# to TypeScript
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Convert C# DTO to TypeScript in two simple steps:
 
-For example if there is an image subfolder under your extension project workspace:
+> Select the class you want to convert
+> Press ```alt``` + ```shift``` + ```c``` (Windows) or  ```cmd``` + ```shift``` + ```c``` (Mac)
 
-\!\[feature X\]\(images/feature-x.png\)
+![](https://raw.githubusercontent.com/CHA/cs2ts/develop/src/assets/features/convert-class.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
@@ -18,7 +18,9 @@ Visual Studio Code ^1.5.2
 
 ## Known Issues and Limitations
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Nullable datatype still not supported
+- Unable to convert generic classes
+- Convert C# class to TypeScript interface only
 
 ## Release Notes
 
