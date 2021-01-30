@@ -1,6 +1,6 @@
 {
 	"name": "cs2ts",
-	"displayName": "cs2ts",
+	"displayName": "CS2TS",
 	"description": "CS2TS: C# DTO class to TypeScript interface converter",
 	"version": "1.0.0",
 	"publisher": "christofelhq",
