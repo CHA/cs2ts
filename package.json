@@ -3,6 +3,7 @@
 	"displayName": "cs2ts",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "christofelh",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
@@ -10,21 +11,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:cs2ts.parse"
+		"onCommand:cs2ts"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "cs2ts.parse",
+				"command": "cs2ts",
 				"title": "Convert CSharp class to TypeScript interface"
 			}
 		],
 		"keybindings": [
             {
-                "command": "cs2ts.parse",
-                "key": "alt+shift+p",
-                "mac": "cmd+shift+p"
+                "command": "cs2ts",
+                "key": "alt+shift+c",
+                "mac": "cmd+shift+c"
             }
         ]
 	},
