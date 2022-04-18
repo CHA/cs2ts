@@ -1,6 +1,6 @@
-# cs2ts README
+# Visual Studio Code Extensions
 
-CS2TS: C# to TypeScript
+CS2TS converts C# DTO to TypeScript interface
 
 ## Features
 
